@@ -321,7 +321,7 @@ body {
 }
 @media only screen and (max-width: 991px) {
   .main-about-betu .content-about-betu .row .card-inforbetu .overlay {
-    padding: 22px 30px;
+    padding: 22px 80px;
   }
 }
 .main-about-betu .content-about-betu .row .card-inforbetu .overlay span {
@@ -376,6 +376,11 @@ body {
 
 .main-news-and-events {
   padding: 4rem 0;
+}
+@media only screen and (max-width: 991px) {
+  .main-news-and-events {
+    padding: 1rem 0;
+  }
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .header-top {
@@ -448,7 +453,7 @@ body {
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .content .col-left .carousel .carousel-inner .carousel-item img {
-    min-height: 635px;
+    min-height: 220px;
   }
 }
 .main-news-and-events .content .col-left .carousel .carousel-inner .carousel-item .carousel-caption {
@@ -463,6 +468,24 @@ body {
   position: relative;
   opacity: 1;
 }
+.main-news-and-events .content .col-left .carousel .carousel-inner .carousel-item .carousel-caption .items h5 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+@media only screen and (max-width: 991px) {
+  .main-news-and-events .content .col-left .carousel .carousel-inner .carousel-item .carousel-caption .items h5 {
+    font-size: 20px;
+    padding: 0 1rem;
+  }
+}
+.main-news-and-events .content .col-left .carousel .carousel-control-prev {
+  top: -15%;
+}
+.main-news-and-events .content .col-left .carousel .carousel-control-next {
+  top: -15%;
+}
 .main-news-and-events .content .col-left .carousel .carousel-indicators {
   position: unset;
 }
@@ -472,7 +495,7 @@ body {
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .content .col-left .carousel .carousel-indicators img {
-    width: 310px;
+    width: 150px;
   }
 }
 .main-news-and-events .content .col-left .carousel .carousel-indicators button {

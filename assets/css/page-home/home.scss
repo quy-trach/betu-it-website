@@ -32,9 +32,12 @@ $font-size-title: 1.75rem;
 }
 /*#endregion */
 
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
 
 /*#region Trang chủ */
 
@@ -410,7 +413,7 @@ body {
 
 
                     @media only screen and (max-width: $mobile-max-width) {
-                        padding: 22px 30px;
+                        padding: 22px 80px;
                     }
 
                     span {
@@ -488,6 +491,10 @@ body {
 
 .main-news-and-events {
     padding: 4rem 0;
+
+    @media only screen and (max-width: $mobile-max-width) {
+        padding: 1rem 0;
+    }
 
     .header-top {
 
@@ -577,7 +584,7 @@ body {
                             min-height: 500px;
 
                             @media only screen and (max-width: $mobile-max-width) {
-                                min-height: 635px;
+                                min-height: 220px;
                             }
                         }
 
@@ -594,6 +601,15 @@ body {
                                 opacity: 1;
 
                                 h5 {
+                                    font-size: 30px;
+                                    font-weight: 600;
+                                    color: $color-white;
+                                    text-align: center;
+
+                                    @media only screen and (max-width: $mobile-max-width) {
+                                        font-size: 20px;
+                                        padding: 0 1rem;
+                                    }
                                 }
 
                                 p {
@@ -604,12 +620,16 @@ body {
                 }
 
                 .carousel-control-prev {
+                    top: -15%;
+
 
                     .carousel-control-prev-icon {
                     }
                 }
 
                 .carousel-control-next {
+                    top: -15%;
+
 
                     .carousel-control-next-icon {
                     }
@@ -623,7 +643,7 @@ body {
                         border-radius: 10px;
 
                         @media only screen and (max-width: $mobile-max-width) {
-                            width: 310px;
+                            width: 150px;
                         }
                     }
 
