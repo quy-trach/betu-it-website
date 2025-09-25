@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "assets/css/style.css",
+    "inputFile": "assets/css/style.scss"
+  },
+  {
+    "outputFile": "assets/css/about-it.css",
+    "inputFile": "assets/css/about-it.scss"
+  },
+  {
+    "outputFile": "assets/css/page-news-even/news-even.css",
+    "inputFile": "assets/css/page-news-even/news-even.scss"
+  },
+  {
+    "outputFile": "assets/css/page-about-it/about-it.css",
+    "inputFile": "assets/css/page-about-it/about-it.scss"
+  },
+  {
+    "outputFile": "assets/css/page-home/home.css",
+    "inputFile": "assets/css/page-home/home.scss"
+  },
+  {
+    "outputFile": "assets/css/page-about-betu/about-betu.css",
+    "inputFile": "assets/css/page-about-betu/about-betu.scss"
+  }
+]
