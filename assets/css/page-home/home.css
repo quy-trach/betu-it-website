@@ -500,7 +500,7 @@ body {
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .content .col-left .carousel .carousel-indicators img {
-    width: 140px !important;
+    width: 120px !important;
     height: 100px;
   }
 }
