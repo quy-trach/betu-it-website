@@ -488,18 +488,26 @@ body {
 }
 .main-news-and-events .content .col-left .carousel .carousel-indicators {
   position: unset;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 .main-news-and-events .content .col-left .carousel .carousel-indicators img {
-  width: 245px;
+  width: 240px !important;
+  height: 145px;
   border-radius: 10px;
+  object-fit: cover;
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .content .col-left .carousel .carousel-indicators img {
-    width: 150px;
+    width: 140px !important;
+    height: 100px;
   }
 }
 .main-news-and-events .content .col-left .carousel .carousel-indicators button {
   width: max-content !important;
+  margin: 0;
+  padding: 0;
 }
 @media only screen and (max-width: 991px) {
   .main-news-and-events .content .col-right {

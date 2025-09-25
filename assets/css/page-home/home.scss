@@ -637,18 +637,26 @@ body {
 
                 .carousel-indicators {
                     position: unset;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
 
                     img {
-                        width: 245px;
+                        width: 240px !important;
+                        height: 145px;
                         border-radius: 10px;
+                        object-fit: cover; 
 
                         @media only screen and (max-width: $mobile-max-width) {
-                            width: 150px;
+                            width: 140px !important; 
+                            height: 100px;
                         }
                     }
 
                     button {
                         width: max-content !important;
+                        margin: 0; // Loại bỏ margin mặc định
+                        padding: 0; // Loại bỏ padding mặc định
                     }
                 }
             }
@@ -969,7 +977,7 @@ body {
                 padding: 1.5rem 0;
 
                 @media only screen and (max-width: $mobile-max-width) {
-                  text-align:center;
+                    text-align: center;
                 }
             }
 
